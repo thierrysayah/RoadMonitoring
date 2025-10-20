@@ -11,7 +11,7 @@ Pillow>=10.0.0
 piexif>=1.1.3
 
 # GUI
-FreeSimpleGUI>=5.0.0
+streamlit>=1.37.0
 
 # Web map generation
 folium>=0.16.0
@@ -30,3 +30,4 @@ webbrowser  # built-in (no install needed, but kept for clarity)
 # Optional: prevent OpenMP runtime conflicts (for YOLO/Ultralytics on Windows)
 # Set this environment variable manually if you get libiomp5md.dll issues:
 # KMP_DUPLICATE_LIB_OK=TRUE
+
